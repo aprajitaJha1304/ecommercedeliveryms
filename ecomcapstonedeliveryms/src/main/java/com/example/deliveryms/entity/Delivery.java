@@ -19,8 +19,6 @@ public class Delivery {
     @Column(name = "customer_id")
     private Long customerId;
 
-    //@ManyToOne
-    //@JoinColumn(name = "order_info_id")
     @Transient
     private OrderInfo orderInfo;
 
@@ -31,7 +29,5 @@ public class Delivery {
     @Column(name = "delivery_agent_location")
     private String deliveryAgentLocation;
 
-    // Getters and setters
-
-    // Additional constructors, if needed
+    
 }
